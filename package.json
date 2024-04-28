@@ -1,0 +1,36 @@
+{
+  "name": "admission_int_backend",
+  "version": "5.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "post-update": "echo \"codesandbox preview only, need an update\" && pnpm update --latest"
+  },
+  "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "latest",
+    "@mui/material": "^5.15.14",
+    "@mui/material-nextjs": "latest",
+    "@mui/x-data-grid": "^7.0.0",
+    "aws-amplify": "^6.0.21",
+    "immer": "^10.0.4",
+    "jwt-decode": "^4.0.0",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "typescript": "latest"
+  }
+}
